@@ -24,7 +24,6 @@
   body {
     margin: 0;
   }
-  
   /**
    * Render the `main` element consistently in IE.
    */
@@ -347,4 +346,13 @@
   
   [hidden] {
     display: none;
+  }
+
+  /**
+  * Remove list style and a
+  */
+
+  ul li, a{
+    list-style: none;
+    text-decoration: none;
   }
